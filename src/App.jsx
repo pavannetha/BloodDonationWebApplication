@@ -1,11 +1,16 @@
 import "./App.css";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+import SignUp from "./Pages/SignUp";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <h1 className="font-sans text-7xl">Blood Donation</h1>
-      <h1>Hello</h1>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/login" element={<Login />}></Route>
+      <Route path="/signup" element={<SignUp />}></Route>
+    </Routes>
   );
 }
 
