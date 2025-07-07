@@ -16,14 +16,12 @@ export default function Navbar() {
           <Link to="/">
             <li>About</li>
           </Link>
-          <Link to="/login">
-            <li>Login</li>
+
+          <Link to="/request">
+            <li>Request</li>
           </Link>
-          <Link to="/signup">
-            <li>SignUp</li>
-          </Link>
-          <Link to='/request'>
-          <li>Request</li>
+          <Link to="/user">
+            <li>User</li>
           </Link>
         </div>
       </div>
