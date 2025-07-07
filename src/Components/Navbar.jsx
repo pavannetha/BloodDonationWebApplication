@@ -22,6 +22,9 @@ export default function Navbar() {
           <Link to="/signup">
             <li>SignUp</li>
           </Link>
+          <Link to='/request'>
+          <li>Request</li>
+          </Link>
         </div>
       </div>
     </>
